@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stock Ticker Search</title>
+</head>
+<body>
+  <h2>Search for a Stock</h2>
+  <form method="GET" action="/process">
+    <input type="text" name="query" required placeholder="Enter company or ticker" /><br><br>
+    
+    <input type="radio" name="type" value="company" checked> Company Name<br>
+    <input type="radio" name="type" value="ticker"> Ticker Symbol<br><br>
+
+    <input type="submit" value="Search" />
+  </form>
+</body>
+</html>
